@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+  .bg-container {
+    display: none;
+  }
+  .bg-card::after {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    background-image: url(../images/bg-pattern-card.svg);
+  }
+  .bg-card img {
+    display: none;
+  }
+}
